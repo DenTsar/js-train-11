@@ -32,8 +32,9 @@ function clearSet(set) {
   // Якщо ні повертаємо Множина вже порожня.
   if (set.size !== 0) {
     set.clear();
-    return set;
+    return "Множину очищено";
   } else return "Множина вже порожня";
+  +
 }
 
 // Приклад використання функції clearSet
